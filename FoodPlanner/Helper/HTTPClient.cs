@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace FoodPlanner.Helper
 {
-    public static class HTTPClient
+    public class HTTPClient
     {
+
+
         public static bool CheckLink(Uri uri)
         {
             // TODO: Implement
